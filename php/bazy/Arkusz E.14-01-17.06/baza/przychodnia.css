@@ -1,0 +1,34 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#baner{
+  background-color: rgb(66,22,42);
+  color: white;
+  font-size: 140%;
+  text-align: center;
+  height: 100px;
+}
+#lewy{
+  background-color: rgb(142,115,110);
+  color: white;
+  height: 600px;
+  width: 30%;
+  float: left;
+}
+#prawy{
+  background-color: rgb(230,230,230);
+  color: black;
+  width: 70%;
+  height: 600px;
+  float: left;
+  font-size: 120%;
+}
+#stopka{
+  background-color: rgb(142,115,110);
+  color: white;
+  width: 100%;
+  height: 100px;
+  float: left;
+  text-align: right;
+}

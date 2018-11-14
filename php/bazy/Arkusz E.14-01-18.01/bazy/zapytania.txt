@@ -1,0 +1,8 @@
+-- Zapytanie 1 --
+SELECT `id`,`tytul`,`tresc` FROM `ogloszenie` WHERE `kategoria`=1
+-- Zapytanie 2 --
+SELECT `telefon` FROM `ogloszenie` JOIN uzytkownik on ogloszenie.uzytkownik_id = uzytkownik.id WHERE ogloszenie.id = 1
+-- Zapytanie 3 --
+CREATE USER 'moderator'@'localhost' IDENTIFIED by 'qwerty'
+-- Zapytanie 4 --
+GRANT SELECT, DELETE ON `ogloszenia2`.`ogloszenie` TO 'moderator'@'localhost';

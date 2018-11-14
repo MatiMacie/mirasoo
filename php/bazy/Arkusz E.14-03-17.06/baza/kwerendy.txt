@@ -1,0 +1,10 @@
+-- Zapytanie 1 --
+SELECT `imie`,`telefon`,`szczepienie`,`opis` FROM `zwierzeta`
+-- Zapytanie 2 --
+SELECT `id`,`imie`,`wlasciciel` FROM `zwierzeta` WHERE rodzaj = 1
+-- Zapytanie 3 --
+SELECT zwierzeta.imie AS 'Imię', uslugi.nazwa AS 'Nazwa zabiegu'
+FROM `zwierzeta`
+INNER JOIN uslugi on zwierzeta.usluga_id = uslugi.id
+-- Zapytanie 4 --
+SELECT AVG(`cena`) AS 'Średnia cena' FROM `uslugi` 

@@ -1,0 +1,1 @@
+Użytkownik wpisje login i hasło do formularza na stronie login.php
